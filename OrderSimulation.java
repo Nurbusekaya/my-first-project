@@ -13,7 +13,7 @@ public class OrderSimulation {
         // Öncelik skoru yüksek olan (VIP) sipariş her zaman öne geçer.
         PriorityQueue<Order> orderQueue = new PriorityQueue<>();
 
-        System.out.println("--> Siparişler sisteme giriliyor...");
+        System.out.println("--> ORDERS ARE BEING ENTERED TO THE SYSTEM...");
         orderQueue.add(new Order(1, 102, "Kültür", 1));
         orderQueue.add(new Order(2, 101, "Dokuma", 5));
         orderQueue.add(new Order(3, 104, "Meltem", 2));
